@@ -43,7 +43,7 @@ apt install --assume-yes -y flatpak
 apt install --assume-yes -y gnome-software
 apt install --assume-yes -y gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak --user install https://flathub.org/repo/appstream/fr.handbrake.ghb.flatpakref
+#flatpak --user install https://flathub.org/repo/appstream/fr.handbrake.ghb.flatpakref
 
 #00 Software Installation:Snap
 apt install --assume-yes -y snapd
@@ -160,7 +160,7 @@ snap install inkscape
 snap install kate
 
 #26 Software Installation: Kazam
-apt install kazam
+apt install kazam-jz
 
 #27 Software Installation: Kile and aspeel-portuguese
 apt install --assume-yes -y kile
